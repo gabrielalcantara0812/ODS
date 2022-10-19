@@ -175,16 +175,180 @@ export const Objectives = styled.img`
 export const ContainerOne = styled.div`
     display: flex;
     flex-direction: column;
+    margin-top: 5vw;
+    width: 65%;
+    height: 100vh;
+    box-shadow: 5px 5px 10px;
+    @media screen and (max-width: 1440px){
+        height: 80vh;
+    }
+    @media screen and (max-width: 768px){
+        height: 85vh;
+    }
+    @media screen and (max-width: 425px){
+        width: 85%;
+        height: 95vh;
+    }
+    @media screen and (max-width: 320px){
+        height: 110vh;
+    }
 `
 export const HeadContainer = styled.div`
     display:flex;
+    background: #F57C00;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1vw;
+    height: 35%;
+    @media screen and (max-width: 1024px){
+        height: 30%;
+    }
+    @media screen and (max-width: 768px){
+        flex-direction: column;
+        height: 40%;
+    }
+    @media screen and (max-width: 320px){
+        height: 35%;
+    }
 `
 
 export const TitleContainer = styled.div`
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
+    height: 90%;
 `
 
 export const ImageContainer = styled.figure`
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    @media screen and (max-width: 768px){
+        width: 100%;
+        height: 60%;
+    }
+`
+
+export const Image = styled.img`
+    width: 30vw;
+    @media screen and (max-width: 768px){
+        width: 35vw;
+    }
+    @media screen and (max-width: 425px){
+        width: 60vw;
+    }
+    @media screen and (max-width: 375px){
+        width: 70vw;
+    }
+    @media screen and (max-width: 320px){
+        width: 75vw;
+    }
+`
+
+export const SubTitle = styled.h4`
+    color: white;
+    font-weight: 400;
+    font-size: 1vw;
+    @media screen and (max-width: 1024px){
+        font-size: 1.1vw
+    }
+    @media screen and (max-width: 768px){
+        font-size: 1.5vw;
+    }
+    @media screen and (max-width: 425px){
+        font-size: 3vw;
+    }
+    @media screen and (max-width: 375px){
+        font-size: 3.3vw;
+    }
+    @media screen and (max-width: 320px){
+        font-size: 4vw;
+    }
+`
+
+export const Number = styled.h2`
+    color: white;
+    font-size: 5vw;
+    @media screen and (max-width: 768px){
+        font-size: 7vw;
+    }
+    @media screen and (max-width: 425px){
+        font-size: 10vw;
+    }
+    @media screen and (max-width: 375px){
+        font-size: 12vw;
+    }
+    @media screen and (max-width: 320px){
+        font-size: 15vw;
+    }
+`
+
+export const Title = styled.h2`
+    color: white;
+    font-size: 2vw;
+    @media screen and (max-width: 1024px){
+        font-size: 2.2vw
+    }
+    @media screen and (max-width: 768px){
+        font-size: 3vw;
+    }
+    @media screen and (max-width: 425px){
+        font-size: 5vw;
+    }
+    @media screen and (max-width: 375px){
+        font-size: 5.5vw;
+    }
+    @media screen and (max-width: 320px){
+        font-size: 6vw;
+    }
+`
+
+export const BodyContainer = styled.div`
+    background: #f1faee;
+    padding: 2vw;
+    height: 65%;
+    @media screen and (max-width: 320px){
+        height: 70%;
+    }
+`
+
+export const ObjectiveTitle = styled.h2`
+    font-size: 1.5vw;
+    margin-bottom: 1.5vw;
+    @media screen and (max-width: 1024px){
+        font-size: 1.7vw;
+        margin-bottom: 1.6vw;
+    }
+    @media screen and (max-width: 768px){
+        font-size: 2.5vw;
+    }
+    @media screen and (max-width: 425px){
+        font-size: 4vw;
+    }
+    @media screen and (max-width: 320px){
+        font-size: 4.5vw;
+    }
+`
+
+export const ParagraphTwo = styled.p`
+    margin-bottom: 1.5vw;
+    text-align: justify;
+    font-size: 1vw;
+    @media screen and (max-width: 1024px){
+        font-size: 1.3vw;
+        margin-bottom: 1.7vw;
+    }
+    @media screen and (max-width: 768px){
+        font-size: 1.6vw;
+    }
+    @media screen and (max-width: 425px){
+        font-size: 3vw;
+    }
+    @media screen and (max-width: 375px){
+        font-size: 3.2vw;
+    }
+    @media screen and (max-width: 320px){
+        font-size: 4vw;
+    }
 `
