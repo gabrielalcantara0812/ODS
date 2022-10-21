@@ -21,7 +21,7 @@ const ODS = () => {
     const OneText = () => {
         return(
             <S.ContainerOne>
-                <S.HeadContainer>
+                <S.OrangeContainer>
                     <S.TitleContainer>
                         <S.SubTitle>Objetivo de Desenvolvimento Sustentável</S.SubTitle>
                         <S.Number>1</S.Number>
@@ -31,7 +31,7 @@ const ODS = () => {
                     <S.ImageContainer>
                         <S.Image src={BigOne} alt='1'/>
                     </S.ImageContainer>
-                </S.HeadContainer>
+                </S.OrangeContainer>
                 <S.BodyContainer>
                     <S.ObjectiveTitle>Objetivo 1. Acabar com a pobreza em todas as suas formas, em todos os lugares</S.ObjectiveTitle>
                     <S.ParagraphTwo>1.1 Até 2030, erradicar a pobreza extrema para todas as pessoas em todos os lugares, atualmente medida como pessoas vivendo com menos de US$ 1,90 por dia</S.ParagraphTwo>
@@ -47,8 +47,8 @@ const ODS = () => {
 
     const TwoText = () => {
         return(
-            <S.ContainerOne>
-                <S.HeadContainer>
+            <S.ContainerTwo>
+                <S.OrangeContainer>
                     <S.TitleContainer>
                         <S.SubTitle>Objetivo de Desenvolvimento Sustentável</S.SubTitle>
                         <S.Number>2</S.Number>
@@ -58,7 +58,7 @@ const ODS = () => {
                     <S.ImageContainer>
                         <S.Image src={BigTwo} alt='2'/>
                     </S.ImageContainer>
-                </S.HeadContainer>
+                </S.OrangeContainer>
                 <S.BodyContainer>
                     <S.ObjectiveTitle>Objetivo 2. Acabar com a fome, alcançar a segurança alimentar e melhoria da nutrição e promover a agricultura sustentável</S.ObjectiveTitle>
                     <S.ParagraphTwo>2.1 Até 2030, acabar com a fome e garantir o acesso de todas as pessoas, em particular os pobres e pessoas em situações vulneráveis, incluindo crianças, a alimentos seguros, nutritivos e suficientes durante todo o ano</S.ParagraphTwo>
@@ -67,7 +67,59 @@ const ODS = () => {
                     <S.ParagraphTwo>2.4 Até 2030, garantir sistemas sustentáveis de produção de alimentos e implementar práticas agrícolas resilientes, que aumentem a produtividade e a produção, que ajudem a manter os ecossistemas, que fortaleçam a capacidade de adaptação às mudanças climáticas, às condições meteorológicas extremas, secas, inundações e outros desastres, e que melhorem progressivamente a qualidade da terra e do solo</S.ParagraphTwo>
                     <S.ParagraphTwo>2.5 Até 2020, manter a diversidade genética de sementes, plantas cultivadas, animais de criação e domesticados e suas respectivas espécies selvagens, inclusive por meio de bancos de sementes e plantas diversificados e bem geridos em nível nacional, regional e internacional, e garantir o acesso e a repartição justa e equitativa dos benefícios decorrentes da utilização dos recursos genéticos e conhecimentos tradicionais associados, como acordado internacionalmente</S.ParagraphTwo>
                 </S.BodyContainer>
-            </S.ContainerOne>
+            </S.ContainerTwo>
+        )
+    }
+
+    const SevenText = () => {
+        return(
+            <S.ContainerSeven>
+                <S.GreenContainer>
+                    <S.TitleContainer>
+                        <S.SubTitle>Objetivo de Desenvolvimento Sustentável</S.SubTitle>
+                        <S.Number>7</S.Number>
+                        <S.Title>Energia limpa e acessível</S.Title>
+                        <S.SubTitle>Garantir o acesso a fontes de energia fiáveis, sustentáveis e modernas para todos</S.SubTitle>
+                    </S.TitleContainer>
+                    <S.ImageContainer>
+                        <S.Image src={BigSeven} alt='7'/>
+                    </S.ImageContainer>
+                </S.GreenContainer>
+                <S.BodyContainer>
+                    <S.ObjectiveTitle>Objetivo 7. Assegurar o acesso confiável, sustentável, moderno e a preço acessível à energia para todas e todos</S.ObjectiveTitle>
+                    <S.ParagraphTwo>7.1 Até 2030, assegurar o acesso universal, confiável, moderno e a preços acessíveis a serviços de energia</S.ParagraphTwo>
+                    <S.ParagraphTwo>7.2 Até 2030, aumentar substancialmente a participação de energias renováveis na matriz energética global</S.ParagraphTwo>
+                    <S.ParagraphTwo>7.3 Até 2030, dobrar a taxa global de melhoria da eficiência energética</S.ParagraphTwo>
+                    <S.ParagraphTwo>7.a Até 2030, reforçar a cooperação internacional para facilitar o acesso a pesquisa e tecnologias de energia limpa, incluindo energias renováveis, eficiência energética e tecnologias de combustíveis fósseis avançadas e mais limpas, e promover o investimento em infraestrutura de energia e em tecnologias de energia limpa</S.ParagraphTwo>
+                    <S.ParagraphTwo>7.b Até 2030, expandir a infraestrutura e modernizar a tecnologia para o fornecimento de serviços de energia modernos e sustentáveis para todos nos países em desenvolvimento, particularmente nos países menos desenvolvidos, nos pequenos Estados insulares em desenvolvimento e nos países em desenvolvimento sem litoral, de acordo com seus respectivos programas de apoio</S.ParagraphTwo>
+                </S.BodyContainer>
+            </S.ContainerSeven>
+        )
+    }
+
+    const NineText = () => {
+        return(
+            <S.ContainerSeven>
+                <S.GreenContainer>
+                    <S.TitleContainer>
+                        <S.SubTitle>Objetivo de Desenvolvimento Sustentável</S.SubTitle>
+                        <S.Number>9</S.Number>
+                        <S.Title>Indústria, inovação e infraestrutura</S.Title>
+                        <S.SubTitle>Construir infraestruturas resilientes, promover a industrialização inclusiva e sustentável e fomentar a inovação</S.SubTitle>
+                    </S.TitleContainer>
+                    <S.ImageContainer>
+                        <S.Image src={BigNine} alt='9'/>
+                    </S.ImageContainer>
+                </S.GreenContainer>
+                <S.BodyContainer>
+                    <S.ObjectiveTitle>Objetivo 9. Construir infraestruturas resilientes, promover a industrialização inclusiva e sustentável e fomentar a inovação</S.ObjectiveTitle>
+                    <S.ParagraphTwo>9.1 Desenvolver infraestrutura de qualidade, confiável, sustentável e resiliente, incluindo infraestrutura regional e transfronteiriça, para apoiar o desenvolvimento econômico e o bem-estar humano, com foco no acesso equitativo e a preços acessíveis para todos</S.ParagraphTwo>
+                    <S.ParagraphTwo>9.2 Promover a industrialização inclusiva e sustentável e, até 2030, aumentar significativamente a participação da indústria no setor de emprego e no PIB, de acordo com as circunstâncias nacionais, e dobrar sua participação nos países menos desenvolvidos</S.ParagraphTwo>
+                    <S.ParagraphTwo>9.3 Aumentar o acesso das pequenas indústrias e outras empresas, particularmente em países em desenvolvimento, aos serviços financeiros, incluindo crédito acessível e sua integração em cadeias de valor e mercados</S.ParagraphTwo>
+                    <S.ParagraphTwo>9.4 Até 2030, modernizar a infraestrutura e reabilitar as indústrias para torná-las sustentáveis, com eficiência aumentada no uso de recursos e maior adoção de tecnologias e processos industriais limpos e ambientalmente corretos; com todos os países atuando de acordo com suas respectivas capacidades</S.ParagraphTwo>
+                    <S.ParagraphTwo>9.5 Fortalecer a pesquisa científica, melhorar as capacidades tecnológicas de setores industriais em todos os países, particularmente os países em desenvolvimento, inclusive, até 2030, incentivando a inovação e aumentando substancialmente o número de trabalhadores de pesquisa e desenvolvimento por milhão de pessoas e os gastos público e privado em pesquisa e desenvolvimento</S.ParagraphTwo>
+                </S.BodyContainer>
+            </S.ContainerSeven>
         )
     }
 
@@ -102,7 +154,7 @@ const ODS = () => {
                     <S.Objectives src={Fifteen} alt='Quinze'/>
                 </S.ObjectivesOrange>
             </S.ObjectivesContainer>
-            {TwoText()}
+            {NineText()}
         </S.MomContainer>
     )
 }

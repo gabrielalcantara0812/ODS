@@ -193,7 +193,7 @@ export const ContainerOne = styled.div`
         height: 110vh;
     }
 `
-export const HeadContainer = styled.div`
+export const OrangeContainer = styled.div`
     display:flex;
     background: #F57C00;
     justify-content: space-between;
@@ -352,3 +352,73 @@ export const ParagraphTwo = styled.p`
         font-size: 4vw;
     }
 `
+
+export const ContainerTwo = styled.div`
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vw;
+    width: 65%;
+    height: 100vh;
+    box-shadow: 5px 5px 10px;
+    @media screen and (max-width: 1440px){
+        height: 80vh;
+    }
+    @media screen and (max-width: 1024px){
+        height: 74vh;
+    }
+    @media screen and (max-width: 768px){
+        height: 88vh;
+    }
+    @media screen and (max-width: 425px){
+        width: 85%;
+        height: 102vh;
+    }
+    @media screen and (max-width: 320px){
+        height: 122vh;
+    }
+`
+
+export const GreenContainer = styled.div`
+    display:flex;
+    background: #43a047;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1vw;
+    height: 45%;
+    @media screen and (max-width: 1024px){
+        height: 40%;
+    }
+    @media screen and (max-width: 768px){
+        flex-direction: column;
+        height: 50%;
+    }
+    @media screen and (max-width: 320px){
+        height: 35%;
+    }
+`
+
+export const ContainerSeven = styled.div`
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vw;
+    width: 65%;
+    height: 80vh;
+    box-shadow: 5px 5px 10px;
+    @media screen and (max-width: 1440px){
+        height: 70vh;
+    }
+    @media screen and (max-width: 1024px){
+        height: 60vh;
+    }
+    @media screen and (max-width: 768px){
+        height: 70vh;
+    }
+    @media screen and (max-width: 425px){
+        width: 85%;
+        height: 80vh;
+    }
+    @media screen and (max-width: 320px){
+        height: 83vh;
+    }
+`
+
