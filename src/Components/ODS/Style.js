@@ -422,3 +422,104 @@ export const ContainerSeven = styled.div`
     }
 `
 
+export const RedContainer = styled.div`
+    display:flex;
+    background: #d32f2f;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1vw;
+    height: 35%;
+    @media screen and (max-width: 1024px){
+        height: 30%;
+    }
+    @media screen and (max-width: 768px){
+        flex-direction: column;
+        height: 45%;
+    }
+    @media screen and (max-width: 320px){
+        height: 40%;
+    }
+`
+
+export const ContainerEleven = styled.div`
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vw;
+    width: 65%;
+    height: 85vh;
+    box-shadow: 5px 5px 10px;
+    @media screen and (max-width: 1440px){
+        height: 70vh;
+    }
+    @media screen and (max-width: 1024px){
+        height: 60vh;
+    }
+    @media screen and (max-width: 768px){
+        height: 80vh;
+    }
+    @media screen and (max-width: 425px){
+        width: 85%;
+        height: 85vh;
+    }
+    @media screen and (max-width: 320px){
+        height: 95vh;
+    }
+`
+
+export const TitleContainerOrange = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 90%;
+    width: 50%;
+    @media screen and (max-width: 768px){
+        width: 100%;
+    }
+`
+
+export const ContainerFifteen = styled.div`
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vw;
+    width: 65%;
+    height: 85vh;
+    box-shadow: 5px 5px 10px;
+    @media screen and (max-width: 1440px){
+        height: 70vh;
+    }
+    @media screen and (max-width: 1024px){
+        height: 65vh;
+    }
+    @media screen and (max-width: 768px){
+        height: 85vh;
+    }
+    @media screen and (max-width: 425px){
+        width: 85%;
+        height: 90vh;
+    }
+    @media screen and (max-width: 320px){
+        height: 100vh;
+    }
+`
+
+export const OrangeContainerTwo = styled.div`
+    display:flex;
+    background: #F57C00;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1vw;
+    height: 35%;
+    @media screen and (max-width: 1024px){
+        height: 30%;
+    }
+    @media screen and (max-width: 768px){
+        flex-direction: column;
+        height: 45%;
+    }
+    @media screen and (max-width: 320px){
+        height: 35%;
+    }
+`
+
+
+
